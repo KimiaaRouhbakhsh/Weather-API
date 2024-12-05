@@ -1,0 +1,41 @@
+@media screen and (max-width: 1440px) {
+    .Starweather{
+        gap: 60rem;
+    }
+    }
+    @media screen and (max-width: 1440px) {
+        .Starweather{
+            gap: 50rem;
+        }
+        }
+        @media screen and (max-width: 1120px) {
+            .Starweather{
+                gap: 40rem;
+            }
+            }
+            @media screen and (max-width: 980px) {
+                .Starweather{
+                    gap: 30rem;
+                }
+                }
+                @media screen and (max-width: 900px) {
+                    .Starweather{
+                        gap: 15rem;
+                    }
+                    }
+                    @media screen and (max-width: 650px) {
+                        #forecast-details {
+                            gap: 20px;
+                            font-size: 15px;
+                        }    
+                        }
+                    @media screen and (max-width: 550px) {
+                        .Starweather{
+                            gap: 6rem;
+                        }
+                        }
+                        @media screen and (max-width: 400px) {
+                            .Starweather{
+                                gap: 4rem;
+                            }
+                            }

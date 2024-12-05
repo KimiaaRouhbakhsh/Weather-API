@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="Starweather">
+            <div><h3>Starweather</h3></div>
+            <div id="choose-city">
+                <select id="city" onchange="getWeatherForecast()">
+                    <option value="Tehran">تهران</option>
+                    <option value="Mashhad">مشهد</option>
+                    <option value="Shiraz">شیراز</option>
+                    <option value="Isfahan">اصفهان</option>
+                    <option value="Tabriz">تبریز</option>
+                </select>
+                <p>انتخاب شهر</p>
+            </div>
+        </div>
+        <hr>
+
+        <div id="current-weather"></div> 
+
+        <h3>روزهای آینده</h3>
+        <div id="forecast-info">
+            <div id="forecast-details"></div> 
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
